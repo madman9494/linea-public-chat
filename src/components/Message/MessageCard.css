@@ -1,0 +1,34 @@
+.custom-card {
+    border-radius: 10px;
+    width: 100%; /* Make the card take the full width of its container */
+    background-color: #1C172D;
+    box-shadow: 0 4px 8px #1C172D;
+    height: 20rem;
+  }
+  
+  .custom-card-header {
+   /* background-color: #283593; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: -33px; /* Remove margin */
+    margin-right: -33px; /* Remove margin */
+    margin-top: -33px; /* Remove margin */
+  }
+
+  .address-text {
+    padding-top: 10px;
+    text-align: left;
+    font-size: medium;
+  }
+  .formatted-date {
+    padding-top: 10px;
+    text-align: left;
+    font-size: smaller;
+  }
+
+  /* Set all text to white within the card body */
+.card-body, .custom-card-header, .card-text {
+  color: #BCB7CC; /* Ensure all text within these elements is white */
+  text-align: left;
+  font-size: 1.2rem;
+}
