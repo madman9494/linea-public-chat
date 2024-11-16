@@ -8,7 +8,7 @@ import Loader from './components/Loader';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
-const contractAddress = '0x86638bed40fb4a7cd9ef1666b5d5971f4964dd19';
+const contractAddress = '0x5f772155A53d47e2b59FF06564CC221ea712aaf8';
 const contractABI = [
     {
         "inputs": [
@@ -80,10 +80,10 @@ const contractABI = [
     }
 ];
 
-const CHAIN_ID = 8453;
-const CHAIN_HEX = '0x2105';
-const CHAIN_NAME = 'Base';
-const RPC_URL = 'https://mainnet.base.org';
+const CHAIN_ID = 59144;
+const CHAIN_HEX = '0xe708';
+const CHAIN_NAME = 'Linea';
+const RPC_URL = 'https://1rpc.io/linea';
 
 
 function App() {
